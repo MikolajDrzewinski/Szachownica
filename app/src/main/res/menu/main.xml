@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_tworca"
+        android:title="Twórca" />
+    <item
+        android:id="@+id/menu_wyjscie"
+        android:title="Wyjście" />
+    <item
+        android:id="@+id/menu_kolorystyka"
+        android:title="Kolorystyka">
+        <menu>
+            <item
+                android:id="@+id/kolor_czarno_bialy"
+                android:title="Czarno-biała" />
+            <item
+                android:id="@+id/kolor_czerwono_zolty"
+                android:title="Czerwono-żółta" />
+        </menu>
+    </item>
+
+    <group android:id="@+id/grupa_menu_kontekstowego">
+        <item
+            android:id="@+id/id_kontekst_niebiesko_bialy"
+            android:title="Kontekst: Niebiesko-biała" />
+        <item
+            android:id="@+id/id_kontekst_zielono_zolty"
+            android:title="Kontekst: Zielono-żółta" />
+        <item
+            android:id="@+id/id_kontekst_reset_kolorow"
+            android:title="Kontekst: Przywróć domyślne kolory" />
+    </group>
+</menu>
